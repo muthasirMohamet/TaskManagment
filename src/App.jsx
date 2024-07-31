@@ -22,8 +22,8 @@ function App() {
       {showHeader && <Header />}
       {/* Routers */}
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/signup" element={<SingUp />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<SingUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/project" element={<Project />} />
         <Route path="/project/details" element={<ProjectDetails />} />
