@@ -15,7 +15,7 @@ function SignUp() {
       const user = { name, email, password };
       localStorage.setItem('user', JSON.stringify(user));
       alert('Sign Up successful!');
-      navigate('/dashboard');
+      navigate('/login');
     } else {
       alert('You must accept the terms and conditions');
     }
