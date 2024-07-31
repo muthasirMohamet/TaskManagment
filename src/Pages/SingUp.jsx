@@ -1,4 +1,3 @@
-// src/Pages/SignUp.jsx
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 
@@ -102,7 +101,7 @@ function SignUp() {
                     </button>
                   </div>
                   <div className="text-center">
-                    <p className="text-base text-gray-600">Already have an account? <Link to="/" className="font-medium text-orange-500 transition-all duration-200 hover:text-orange-600 hover:underline">Login here</Link></p>
+                    <p className="text-base text-gray-600">Already have an account? <Link to="/login" className="font-medium text-orange-500 transition-all duration-200 hover:text-orange-600 hover:underline">Login here</Link></p>
                   </div>
                 </div>
               </form>
